@@ -8,6 +8,6 @@ print("Daily Study Hours:", hours)
 print("Projected Weekly Hours:", weekly_goal)
 
 if weekly_goal >= 28:
-    print("Excellent consistancy")
+    print("Excellent consistency")
 else:
     print("You should increase your study hours.")
