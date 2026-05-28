@@ -13,7 +13,7 @@ total_hours, average_hours = calculate_weekly_hours(hours_list)
 
 print("\n--- Weekly Study Summary ---")
 print("Total study hours:", total_hours)
-print("Average study hours per day:", average_hours)
+print("Average study hours per day:", round(average_hours,2))
 
 if total_hours >= 28:
     print("You met your weekly goal.")
