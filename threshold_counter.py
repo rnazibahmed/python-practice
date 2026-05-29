@@ -18,5 +18,5 @@ for number in numbers:
 
 print("Number Entered: ", numbers)
 print("Threshold: ", thres)
-print("Numbers greater than threshold: ",greater_num)
-print("Numbers lesser or equal to threshold: ", lesser_num)
+print("Numbers greater than threshold: ",len(greater_num))
+print("Numbers lesser or equal to threshold: ", len(lesser_num))
