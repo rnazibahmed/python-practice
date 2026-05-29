@@ -3,7 +3,7 @@ days = int(input("How many days you have studied?"))
 hours = []
 
 for day in range(days):
-    hour = int(input(f"How many hours did you on day {day+1}"))
+    hour = int(input(f"How many hours did you on day {day+1}? "))
     hours.append(hour)
 
 total_hours = sum(hours)
