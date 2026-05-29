@@ -5,10 +5,9 @@ for i in range(num):
     temp = int(input("Please enter number: "))
     numbers.append(temp)
 
-minimum = numbers[0]
+total = 0
 for number in numbers:
-    if minimum > number:
-        minimum = number
+    total += number
 
 print("Numbers Entered: ",numbers)
-print("Smallest number: ",minimum)
+print("Summation is: ",total)
