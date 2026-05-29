@@ -6,7 +6,7 @@ learning_plan = {
 
 print("--- Learning Plan ---")
 print("Week:", learning_plan["week"])
-print("Topic", learning_plan["topic"])
+print("Topic:", learning_plan["topic"])
 
 print("\nTasks:")
 
